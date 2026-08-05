@@ -1,2 +1,2 @@
-# petcare-lp
-Landing Page para pagina PetCare
+# Petcare
+Projeto para curso tecnico
