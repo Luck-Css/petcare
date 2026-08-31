@@ -1,3 +1,4 @@
+import Hero from "./Components/Hero"
 import Navbar from "./Components/NavBar/Index"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Hero />
     </>
   )
 }
