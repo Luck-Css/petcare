@@ -1,10 +1,17 @@
 import  express, {type Request, type Response}  from "express";
 import { randomUUID } from "node:crypto";
+import { pool } from "./database/connection";
+import { clienteRouter } from "./routes/cliente.route";
 
 const app = express()
 const port = 3000
 
+
 app.use(express.json())
+
+app.use("/cliente", clienteRouter)
+
+
 
 app.get("/health", (_request:Request, response:Response) => {
     return response.json({
