@@ -10,7 +10,7 @@ export default function Hero() {
         <p>Feito para tutores atentos</p>
       </div>
 
-      <div className=" justify-center text-center mt-5 items-center">
+      <div className=" justify-center text-center mt-5 items-center font-bold">
         <p className=" text-5xl mt-10 text-[#4B5A54]">
           Toda a rotina do seu pet,
         </p>

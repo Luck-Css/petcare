@@ -1,4 +1,4 @@
-interface Buttons {
+  interface Buttons {
   text: string;
   text_color: string;
   background: string;

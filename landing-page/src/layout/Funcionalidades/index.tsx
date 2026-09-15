@@ -3,15 +3,17 @@ import { LuSyringe } from "react-icons/lu";
 import { CiHeart } from "react-icons/ci";
 import { CiChat1 } from "react-icons/ci";
 import { CiClock2 } from "react-icons/ci";
+import { RiFunctionAiLine } from "react-icons/ri";
 import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 import Cards from "../../components/Cards";
 
 export default function Funcionalidade() {
   return (
     <>
-      <section className="px-20">
+      <section className="px-20 m-20">
         <div className="flex flex-col items-center justify-center">
-          <div className=" mt-5 rounded-full flex gap-2 bg-[#DCEFE4] p-2">
+          <div className=" mt-5 rounded-full flex gap-2 bg-[var(--color-leaf-light)] p-2 items-center">
+            <RiFunctionAiLine size = {20} />
             <p>Funcionalidades</p>
           </div>
           <div className="justify-center text-center mt-5 items-center  ">

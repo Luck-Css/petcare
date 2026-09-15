@@ -1,6 +1,8 @@
 import Navbar from './layout/Navbar';
 import Hero from './layout/Hero';
 import Funcionalidade from './layout/Funcionalidades';
+import Info from './layout/Info';
+import Contact from './components/Form';
 
 function App() {
 
@@ -10,6 +12,8 @@ function App() {
     <Navbar />
     <Hero />
     <Funcionalidade />
+    <Info />
+    <Contact />
     </>
   )
 }
