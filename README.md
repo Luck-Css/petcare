@@ -1,2 +1,2 @@
 # Petcare
-Projeto para curso tecnico
+Projeto para curso tecnico (Obsoleto)
